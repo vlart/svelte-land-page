@@ -1,5 +1,5 @@
 :root {
-	--gradient: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+	--gradient: linear-gradient(90deg, #01c5ab 0%, #00d4ff 100%);
 	--light: #fff;
 	--grey: #f8f9fa;
   }
@@ -77,13 +77,16 @@ button:focus {
 }
 .main-bgcolor {
 	background-image: var(--gradient);
-  }
+}
+
 .light-color {
 color: var(--light) !important;
 }
+
 .grey-bgcolor {
 background: var(--grey);
 }
+
 .company_brand {
 font-size: x-large;
 }

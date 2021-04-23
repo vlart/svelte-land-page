@@ -1,13 +1,11 @@
-<!--src/Components/Navbar/Navbar.svelte-->
+<!--src/Components/Navbar.svelte-->
 
 <script>
     export let navlists = [];
     export let header;
 </script>
 
-<!------------------------------------------->
 <!----------------MARKUP----------------------->
-<!------------------------------------------->
 
 <section id="nav-bar">
     <nav class="navbar main-bgcolor navbar-expand-md navbar-dark">
@@ -37,9 +35,8 @@
 
 </section>
 
-<!------------------------------------------->
 <!----------------STYLE----------------------->
-<!------------------------------------------->
+
 <style>
     #nav-bar {
       position: sticky;

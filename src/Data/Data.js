@@ -42,7 +42,7 @@ const SERVICE_DATA = {
 };
 
 const ABOUT_DATA = {
-  HEADING: "Why choose us?",
+  HEADING: "WHY CHOOSE US?",
   TITLE: "Why we're different",
   IMAGE_URL: "images/network.png",
   WHY_CHOOSE_US_LIST: [
@@ -57,34 +57,58 @@ const ABOUT_DATA = {
   ]
 };
 const TESTIMONIAL_DATA = {
-  HEADING: "What clients say?",
+  HEADING: "WHAT CLIENTS SAY?",
   TESTIMONIAL_LIST: [
     {
       DESCRIPTION:
         "Freelancee has made a huge difference to our business with his good work and knowledge of SEO and business to business marketing techniques. Our search engine rankings are better than ever and we are getting more people contacting us thanks to Jomer’s knowledge and hard work.",
       IMAGE_URL: "images/user1.jpg",
-      NAME: "Julia hawkins",
+      NAME: "Jane Doe",
       DESIGNATION: "Co-founder at ABC"
     },
     {
       DESCRIPTION:
         "Freelancee and our team have provided us with a comprehensive, fast and well planned digital marketing strategy that has yielded great results in terms of content, SEO, Social Media. His team are a pleasure to work with, as well as being fast to respond and adapt to the needs of your brand.",
       IMAGE_URL: "images/user2.jpg",
-      NAME: "John Smith",
-      DESIGNATION: "Co-founder at xyz"
+      NAME: "John Doe",
+      DESIGNATION: "Co-founder at XYZ"
     }
   ]
 };
 
 const SOCIAL_DATA = {
-  HEADING: "Find us on social media",
+  HEADING: "FIND US ON SOCIAL MEDIA",
   IMAGES_LIST: [
-    "images/facebook-icon.png",
-    "images/instagram-icon.png",
-    "images/whatsapp-icon.png",
-    "images/twitter-icon.png",
-    "images/linkedin-icon.png",
-    "images/snapchat-icon.png"
+    {
+      IMG_SRC : "images/facebook-icon.png",
+      SOCIAL_LINK: "http://www.facebook.com",
+      TITLE: "facebook"
+    },
+    {
+      IMG_SRC : "images/instagram-icon.png",
+      SOCIAL_LINK: "http://www.instagram.com",
+      TITLE: "instagram"
+    },
+    {
+      IMG_SRC : "images/whatsapp-icon.png",
+      SOCIAL_LINK: "http://www.facebook.com",
+      TITLE: "whatsapp"
+    },
+    {
+      IMG_SRC : "images/twitter-icon.png",
+      SOCIAL_LINK: "http://www.twitter.com",
+      TITLE: "twitter"
+    },
+    {
+      IMG_SRC : "images/linkedin-icon.png",
+      SOCIAL_LINK: "http://www.linkedin.com",
+      TITLE: "linkedin"
+    },
+    {
+      IMG_SRC : "images/snapchat-icon.png",
+      SOCIAL_LINK: "http://www.snapchat.com",
+      TITLE: "snapchat"
+    }
   ]
 };
 
