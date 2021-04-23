@@ -27,7 +27,6 @@ then clone it to selected directory --> open it --> and install dependencies
     git https://github.com/vlart/svelte-land-page.git
     cd svelte-land-page
     npm install
-    
 ```
 
 To start the project type 
