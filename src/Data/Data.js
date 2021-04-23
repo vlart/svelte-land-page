@@ -21,16 +21,16 @@ const SERVICE_DATA = {
   ALL_SERVICES: "All Services",
   SERVICE_LIST: [
     {
-      LABEL: "Search Engine Optimisation",
-      DESCRIPTION:
-        "To customise the content, technical functionality and scope of your website so that your pages show for a specific set of keyword at the top of a search engine list. In the end, the goal is to attract traffic to your website when they are searching for goods, services or business-related information.",
-      URL: "images/service1.png"
-    },
-    {
       LABEL: "Content Marketing Strategy",
       DESCRIPTION:
         "It is tough but well worth the effort to create clever material that is not promotional in nature, but rather educates and inspires. It lets them see you as a reliable source of information by delivering content that is meaningful to your audience.",
       URL: "images/service2.png"
+    },
+    {
+      LABEL: "Search Engine Optimisation",
+      DESCRIPTION:
+        "To customise the content, technical functionality and scope of your website so that your pages show for a specific set of keyword at the top of a search engine list. In the end, the goal is to attract traffic to your website when they are searching for goods, services or business-related information.",
+      URL: "images/service1.png"
     },
     {
       LABEL: "Develop Social Media Strategy",
