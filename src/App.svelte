@@ -1,11 +1,11 @@
 <script>
 	import Navbar from "./Components/Navbar.svelte";
-	// import Banner from "./Components/Banner/Banner.svelte";
-	// import Services from "./Components/Services/Services.svelte";
-	// import About from "./Components/About/About.svelte";
-	// import Testimonials from "./Components/Testimonials/Testimonials.svelte";
-	// import Social from "./Components/Social/Social.svelte";
-	// import Footer from "./Components/Footer/Footer.svelte";
+	import Banner from "./Components/Banner.svelte";
+	import Services from "./Components/Services.svelte";
+	import About from "./Components/About.svelte";
+	import Testimonials from "./Components/Testimonials.svelte";
+	import Social from "./Components/Social.svelte";
+	// import Footer from "./Components/Footer.svelte";
 	import DATA from "./Data/Data";
 
 	const {
@@ -23,19 +23,19 @@
 	<Navbar navlists={NAVBAR_DATA} header={HEADER} />
 
 	<!-- Banner -->
-	<!-- <Banner bannerData={DATA.BANNER_DATA} /> -->
+	<Banner bannerData={BANNER_DATA} />
 
 	<!-- Services -->
-	<!-- <Services serviceData={DATA.SERVICE_DATA} /> -->
+	<Services serviceData={DATA.SERVICE_DATA} />
 
 	<!-- About -->
-	<!-- <About aboutData={DATA.ABOUT_DATA} /> -->
+	<About aboutData={DATA.ABOUT_DATA} />
 
 	<!-- Testimonials -->
-	<!-- <Testimonials testimonialData={DATA.TESTIMONIAL_DATA} /> -->
+	<Testimonials testimonialData={DATA.TESTIMONIAL_DATA} />
 	
 	<!-- Social Media -->
-	<!-- <Social socialData={DATA.SOCIAL_DATA} /> -->
+	<Social socialData={DATA.SOCIAL_DATA} />
 	
 	<!-- Footer -->
 	<!-- <Footer footerData={DATA.FOOTER_DATA} header={DATA.HEADER} /> -->
