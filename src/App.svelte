@@ -5,7 +5,7 @@
 	import About from "./Components/About.svelte";
 	import Testimonials from "./Components/Testimonials.svelte";
 	import Social from "./Components/Social.svelte";
-	// import Footer from "./Components/Footer.svelte";
+	import Footer from "./Components/Footer.svelte";
 	import DATA from "./Data/Data";
 
 	const {
@@ -16,27 +16,31 @@
 		ABOUT_DATA,
 		TESTIMONIAL_DATA,
 		SOCIAL_DATA,
+		FOOTER_DATA,
 	} = DATA;
+
   </script>
+
+  <!----------------MARKUP----------------------->
+  
   <main>
 	<!-- Navbar -->
 	<Navbar navlists={NAVBAR_DATA} header={HEADER} />
 
 	<!-- Banner -->
 	<Banner bannerData={BANNER_DATA} />
-
 	<!-- Services -->
-	<Services serviceData={DATA.SERVICE_DATA} />
+	<Services serviceData={SERVICE_DATA} />
 
 	<!-- About -->
-	<About aboutData={DATA.ABOUT_DATA} />
+	<About aboutData={ABOUT_DATA} />
 
 	<!-- Testimonials -->
-	<Testimonials testimonialData={DATA.TESTIMONIAL_DATA} />
+	<Testimonials testimonialData={TESTIMONIAL_DATA} />
 	
 	<!-- Social Media -->
-	<Social socialData={DATA.SOCIAL_DATA} />
+	<Social socialData={SOCIAL_DATA} />
 	
 	<!-- Footer -->
-	<!-- <Footer footerData={DATA.FOOTER_DATA} header={DATA.HEADER} /> -->
+	<Footer footerData={FOOTER_DATA} header={HEADER} />
 </main>
